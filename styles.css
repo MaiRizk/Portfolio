@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 0 14px 0;
+}
+
+.primary {
+    color: #6070FF;
+}
+
+.nav-header {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.nav-img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
