@@ -7,7 +7,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 26px 0 14px 0;
+    margin: 26px 0;
 }
 
 .primary {
@@ -24,4 +24,26 @@ nav {
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+.personal-info {
+    background: url(/images/bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #172B4D;
+    margin-bottom: 5px;
+    width: 70%;
+}
+
+.intro {
+    background: white;
+    font-size: 16px;
+    color: #344563;
+    margin-top: 0;
 }
