@@ -1,13 +1,13 @@
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  margin: 0 24px;
+  margin: 0;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 26px 0;
+  margin: 26px 24px;
 }
 
 .primary {
@@ -27,10 +27,11 @@ nav {
 }
 
 .personal-info {
-  background: url(/images/bg.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding-top: 85px;
+    background: url(/images/bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 85px;
+    padding: 85px 24px 200px 24px;
 }
 
 h1 {
