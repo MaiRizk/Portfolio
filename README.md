@@ -6,6 +6,8 @@ This is my personal portfolio project. It should include all the projects I will
 
 This project is milestone based and it will be updated every milestone.
 
+It's now updated with a section to contain work examples and another section for personal information.
+
 ## Built With
 
 - HTML
