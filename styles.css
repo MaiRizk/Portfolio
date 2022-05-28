@@ -105,3 +105,42 @@ h1 {
 .active-span {
   color: #344563;
 }
+
+.card p {
+  font-size: 16px;
+  color: #344563;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.card ul {
+  margin-top: 12px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.card li {
+  background: #ebebff;
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.card button {
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  background: white;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  padding: 12px 13px;
+  margin-bottom: 12px;
+}
