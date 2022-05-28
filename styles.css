@@ -140,7 +140,7 @@ h1 {
   margin-right: 8px;
 }
 
-.card button {
+.primary-btn {
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
@@ -149,4 +149,23 @@ h1 {
   border-radius: 8px;
   padding: 12px 13px;
   margin-bottom: 12px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.about-me {
+  padding-top: 114px;
+  background: #f3f3f3;
+}
+
+.about-container {
+  background: white;
+  border-top-right-radius: 80px;
+  padding: 114px 24px;
+}
+
+.about-me h2 {
+  margin-top: 0;
+  font-size: 40px;
+  color: #172b4d;
+  margin-bottom: 8px;
 }
