@@ -65,3 +65,43 @@ h1 {
   list-style: none;
   padding: 0;
 }
+
+.work {
+  background: #f3f3f3;
+  padding: 114px 24px 0 24px;
+  display: grid;
+  grid-gap: 80px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-title {
+  margin-top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card-details {
+  padding-bottom: 8px;
+}
+
+.card-details * {
+  margin-right: 12px;
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.active-span {
+  color: #344563;
+}
