@@ -28,10 +28,16 @@ header {
 }
 
 .personal-info {
+  background: #f3f3f3;
+}
+
+.info-container {
+  padding: 85px 24px 200px 24px;
+  border-bottom-left-radius: 80px;
   background: url(./images/bg.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 85px 24px 200px 24px;
+  background-color: white;
 }
 
 h1 {
