@@ -121,13 +121,6 @@ h1 {
   color: #344563;
 }
 
-.card p {
-  font-size: 16px;
-  color: #344563;
-  line-height: 24px;
-  margin-bottom: 0;
-}
-
 .card ul {
   margin-top: 12px;
   display: flex;
@@ -278,17 +271,16 @@ form button {
   align-self: flex-start;
 }
 
+.card p {
+  font-size: 16px;
+  color: #344563;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     margin: 25px 13%;
-  }
-
-  nav a {
-    font-size: 15px;
-    color: #344563;
-    text-decoration: none;
-    font-weight: 500;
-    margin-right: 30px;
   }
 
   nav a:last-child {
@@ -318,6 +310,10 @@ form button {
     background-color: white;
   }
 
+  nav {
+    display: flex;
+  }
+
   .nav-img {
     display: none;
   }
@@ -326,14 +322,15 @@ form button {
     display: block;
     transition-property: text-decoration;
     transition-duration: 3s;
+    font-size: 15px;
+    color: #344563;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 30px;
   }
 
   nav a:hover {
     text-decoration: underline;
-  }
-
-  nav {
-    display: flex;
   }
 
   .work {
@@ -378,10 +375,6 @@ form button {
     margin-bottom: 20px;
   }
 
-  .primary-btn {
-    margin-top: 20px;
-  }
-
   .card-details {
     display: flex;
     align-items: center;
@@ -392,15 +385,11 @@ form button {
     transition: width 2s, height 2s ease-in-out 2s;
   }
 
-  .social-links img:hover {
-    width: 25px;
-    height: 25px;
-  }
-
   .primary-btn {
     transition: padding 3s font-size 3s;
     cursor: pointer;
     min-width: 140px;
+    margin-top: 20px;
   }
 
   .primary-btn:hover {
@@ -452,6 +441,11 @@ form button {
     width: 88%;
     margin: auto auto 20px auto;
     border-radius: 2px;
+  }
+
+  .social-links img:hover {
+    width: 25px;
+    height: 25px;
   }
 
   .card:nth-child(even) {
