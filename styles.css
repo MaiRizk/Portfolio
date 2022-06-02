@@ -32,6 +32,10 @@ ul {
   cursor: pointer;
 }
 
+nav a {
+  display: none;
+}
+
 .personal-info {
   background: #f3f3f3;
 }
@@ -290,14 +294,38 @@ form button {
     margin-right: 0;
   }
 
-  .nav-img {
-    display: none;
-  }
-
   .info-container {
     background: url(./images/desktop-bg.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: white;
+    padding: 185px 16% 250px 16%;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .intro {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .social-links li {
+    background-color: white;
+  }
+
+  .nav-img {
+    display: none;
+  }
+
+  nav a {
+    display: block;
+  }
+
+  nav {
+    display: flex;
   }
 }
