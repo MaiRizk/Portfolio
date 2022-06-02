@@ -338,6 +338,8 @@ form button {
 
   .work {
     padding: 142px 13%;
+    grid-gap: unset;
+    display: block;
   }
 
   .card {
@@ -346,6 +348,9 @@ form button {
     grid-gap: 3%;
     border-radius: 24px;
     padding: 24px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 142px;
   }
 
   .card-img {
@@ -377,40 +382,10 @@ form button {
     margin-top: 20px;
   }
 
-  .card:nth-child(even) {
-    direction: rtl;
-  }
-
-  .card-title:nth-of-type(odd) {
-    text-align: left;
-  }
-
-  .card p:nth-of-type(odd) {
-    text-align: left;
-  }
-
-  .card-content:nth-of-type(odd) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .card-details {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-  }
-
-  .card-content:nth-of-type(odd) .card-details {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-  }
-
-  .card:nth-of-type(even) ul {
-    width: 100%;
-    justify-content: flex-start;
-    flex-direction: row-reverse;
   }
 
   .social-links img {
@@ -441,7 +416,7 @@ form button {
   }
 
   .first-child ul {
-      display: flex;
+    display: flex;
   }
 
   .one-lang {
@@ -451,14 +426,14 @@ form button {
     padding-right: 40px;
     margin-right: 12px;
     width: unset;
-}
+  }
 
-.one-lang img {
-  margin-bottom: 16px;
-}
+  .one-lang img {
+    margin-bottom: 16px;
+  }
 
-.form-container {
-  width: 37%;
+  .form-container {
+    width: 37%;
     margin: auto;
   }
 
@@ -469,13 +444,23 @@ form button {
     background-size: 100%;
   }
 
-.form-container button {
-  margin: auto;
-}
+  .form-container button {
+    margin: auto;
+  }
 
-.form-input {
-  width: 88%;
-  margin: auto auto 20px auto;
+  .form-input {
+    width: 88%;
+    margin: auto auto 20px auto;
     border-radius: 2px;
-}
+  }
+
+  .card:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3%;
+  }
+
+  .card:nth-child(even) .card-img {
+    width: 48.5%;
+  }
 }
