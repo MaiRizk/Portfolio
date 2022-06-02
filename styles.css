@@ -432,4 +432,28 @@ form button {
     font-size: 19px;
     padding: 15px 18px;
   }
+
+  .about-container {
+    padding: 114px 13%;
+    display: grid;
+    grid-template-columns: 33% 65%;
+    grid-gap: 2%;
+  }
+
+  .first-child ul {
+      display: flex;
+  }
+
+  .one-lang {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 40px;
+    margin-right: 12px;
+    width: unset;
+}
+
+.one-lang img {
+  margin-bottom: 16px;
+}
 }
