@@ -236,36 +236,71 @@
         </ul>
         <button class="primary-btn" type="button">Get my resume</button>
         <ul class="details-container">
-            <li class="about-details first-child">
-                <div class="opened">
-                <span>Languages</span>
-                <img src="./images/downarrow.svg" alt="down arrow" />
+          <li class="about-details first-child">
+            <div class="opened">
+              <span>Languages</span>
+              <img src="./images/downarrow.svg" alt="down arrow" />
             </div>
             <ul>
-                <li class="one-lang">
-                    <img src="./images/js.svg" alt="javaScript" />
-                    <span>JavaSript</span>
-                </li>
-                <li class="one-lang">
-                    <img src="./images/html.svg" alt="html" />
-                    <span>HTML</span>
-                </li>
-                <li class="one-lang">
-                    <img src="./images/css.svg" alt="css" />
-                    <span>CSS</span>
-                </li>
+              <li class="one-lang">
+                <img src="./images/js.svg" alt="javaScript" />
+                <span>JavaSript</span>
+              </li>
+              <li class="one-lang">
+                <img src="./images/html.svg" alt="html" />
+                <span>HTML</span>
+              </li>
+              <li class="one-lang">
+                <img src="./images/css.svg" alt="css" />
+                <span>CSS</span>
+              </li>
             </ul>
-            </li>
-            <li class="about-details">
-                <span>Frameworks</span>
-                <img src="./images/rightarrow.svg" alt="right arrow" />
-            </li>
-            <li class="about-details">
-                <span>Skills</span>
-                <img src="./images/rightarrow.svg" alt="right arrow" />
-            </li>
+          </li>
+          <li class="about-details">
+            <span>Frameworks</span>
+            <img src="./images/rightarrow.svg" alt="right arrow" />
+          </li>
+          <li class="about-details">
+            <span>Skills</span>
+            <img src="./images/rightarrow.svg" alt="right arrow" />
+          </li>
         </ul>
       </div>
     </section>
+    <footer>
+      <form action="https://formspree.io/f/{form_id}" method="post">
+        <div class="form-container">
+          <h4>Contact me</h4>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <input
+            class="form-input"
+            type="text"
+            name="username"
+            placeholder="Type your user name"
+            maxlength="30"
+            required
+          />
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            placeholder="Type your email address"
+            required
+          />
+          <textarea
+            class="form-input"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          >
+          </textarea>
+          <button class="primary-btn" type="submit">Get in Touch</button>
+        </div>
+      </form>
+    </footer>
   </body>
 </html>
