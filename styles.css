@@ -17,6 +17,7 @@ header {
 ul {
   list-style: none;
   padding: 0;
+  cursor: pointer;
 }
 
 .nav-header {
@@ -30,6 +31,10 @@ ul {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+nav a {
+  display: none;
 }
 
 .personal-info {
@@ -98,6 +103,7 @@ h1 {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 20px;
+  width: 63%;
 }
 
 .card-details {
@@ -270,5 +276,160 @@ textarea {
 
 form button {
   align-self: flex-start;
-  width: 140px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    margin: 25px 13%;
+  }
+
+  nav a {
+    font-size: 15px;
+    color: #344563;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+
+  nav a:last-child {
+    margin-right: 0;
+  }
+
+  .info-container {
+    background: url(./images/desktop-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+    padding: 185px 16% 250px 16%;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .intro {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  .social-links li {
+    background-color: white;
+  }
+
+  .nav-img {
+    display: none;
+  }
+
+  nav a {
+    display: block;
+    transition-property: text-decoration;
+    transition-duration: 3s;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  .work {
+    padding: 142px 13%;
+  }
+
+  .card {
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    grid-gap: 3%;
+    border-radius: 24px;
+    padding: 24px;
+  }
+
+  .card-img {
+    height: 100%;
+  }
+
+  .card-title {
+    margin-top: 24px;
+    font-size: 40px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .card-details * {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .active-span {
+    font-weight: 500;
+  }
+
+  .card p {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+  .primary-btn {
+    margin-top: 20px;
+  }
+
+  .card:nth-child(even) {
+    direction: rtl;
+  }
+
+  .card-title:nth-of-type(odd) {
+    text-align: left;
+  }
+
+  .card p:nth-of-type(odd) {
+    text-align: left;
+  }
+
+  .card-content:nth-of-type(odd) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .card-content:nth-of-type(odd) .card-details {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .card:nth-of-type(even) ul {
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
+
+  .social-links img {
+    transition: width 2s, height 2s ease-in-out 2s;
+  }
+
+  .social-links img:hover {
+    width: 25px;
+    height: 25px;
+  }
+
+  .primary-btn {
+    transition: padding 3s font-size 3s;
+    cursor: pointer;
+    min-width: 140px;
+  }
+
+  .primary-btn:hover {
+    font-size: 19px;
+    padding: 15px 18px;
+  }
 }
