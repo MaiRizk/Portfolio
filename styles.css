@@ -393,43 +393,43 @@ form button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    }
+  }
 
-    .card-details {
-      display: flex;
+  .card-details {
+    display: flex;
     align-items: center;
     justify-content: flex-start;
-    }
+  }
 
-    .card-content:nth-of-type(odd) .card-details {
-      display: flex;
-      flex-direction: row-reverse;
-      width: 100%;
-    }
+  .card-content:nth-of-type(odd) .card-details {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
 
-    .card:nth-of-type(even) ul {
-      width: 100%;
-      justify-content: flex-start;
-      flex-direction: row-reverse;
-    }
+  .card:nth-of-type(even) ul {
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+  }
 
-    .social-links img {
-      transition: width 2s, height 2s ease-in-out 2s;
-    }
+  .social-links img {
+    transition: width 2s, height 2s ease-in-out 2s;
+  }
 
-    .social-links img:hover {
-      width: 25px;
-      height: 25px;
-    }
+  .social-links img:hover {
+    width: 25px;
+    height: 25px;
+  }
 
-    .primary-btn {
-      transition: padding 3s font-size 3s;
-      cursor: pointer;
-      min-width: 140px;
-    }
+  .primary-btn {
+    transition: padding 3s font-size 3s;
+    cursor: pointer;
+    min-width: 140px;
+  }
 
-    .primary-btn:hover {
-      font-size: 19px;
-      padding: 15px 18px;
-    }
+  .primary-btn:hover {
+    font-size: 19px;
+    padding: 15px 18px;
+  }
 }
