@@ -456,4 +456,26 @@ form button {
 .one-lang img {
   margin-bottom: 16px;
 }
+
+.form-container {
+  width: 37%;
+    margin: auto;
+  }
+
+  form {
+    background: url(./images/form-bg.svg);
+    background-repeat: no-repeat;
+    background-color: #6070ff;
+    background-size: 100%;
+  }
+
+.form-container button {
+  margin: auto;
+}
+
+.form-input {
+  width: 88%;
+  margin: auto auto 20px auto;
+    border-radius: 2px;
+}
 }
