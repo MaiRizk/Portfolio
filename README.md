@@ -6,12 +6,16 @@ This is my personal portfolio project. It should include all the projects I will
 
 This project is milestone based and it will be updated every milestone.
 
-It's now updated with a section to contain work examples and another section for personal information.
+It's now updated with the main page info that contains introduction, work samples and contact form. This main page is responsive and it works fine on all screen sizes.
 
 ## Built With
 
 - HTML
 - CSS
+
+## Live Demo
+
+[Live Demo Link](https://mairizk.github.io/Portfolio/)
 
 ## Authors
 
