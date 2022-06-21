@@ -24,19 +24,25 @@
       <div id="myNav" class="overlay">
         <a class="closebtn" id="closebtn">&times;</a>
         <div class="overlay-content" id="overlay-content">
-          <a href="#">Portfolio</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="#Portfolio">Portfolio</a>
+          <a href="#About">About</a>
+          <a href="#Contact">Contact</a>
         </div>
       </div>
-      <a href="index.html" id="nav-header" class="primary nav-header">My Logo</a>
+      <a href="index.html" id="nav-header" class="primary nav-header"
+        >My Logo</a
+      >
       <nav>
-        <img id="img" class="nav-img" src="./images/menu.svg" alt="navigation menu" />
-        <a href="#"> Portfolio </a>
-        <a href="#"> About </a>
-        <a href="#"> Contact </a>
+        <img
+          id="img"
+          class="nav-img"
+          src="./images/menu.svg"
+          alt="navigation menu"
+        />
+        <a href="#Portfolio"> Portfolio </a>
+        <a href="#About"> About </a>
+        <a href="#Contact"> Contact </a>
       </nav>
-     
     </header>
     <section class="personal-info">
       <div class="info-container">
@@ -81,7 +87,7 @@
         </ul>
       </div>
     </section>
-    <section class="work">
+    <section class="work" id="Portfolio">
       <div class="card">
         <img class="card-img" src="./images/tonic.svg" alt="work snapshot" />
         <div class="card-content">
@@ -207,7 +213,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="About">
       <div class="about-container">
         <div>
           <h2>
@@ -255,7 +261,10 @@
           <li class="about-details first-child">
             <div class="opened">
               <span>Languages</span>
-              <img src="./images/downarrow.svg" alt="languages menu navigation" />
+              <img
+                src="./images/downarrow.svg"
+                alt="languages menu navigation"
+              />
             </div>
             <ul>
               <li class="one-lang">
@@ -274,7 +283,10 @@
           </li>
           <li class="about-details">
             <span>Frameworks</span>
-            <img src="./images/rightarrow.svg" alt="Frameworks menu navigation" />
+            <img
+              src="./images/rightarrow.svg"
+              alt="Frameworks menu navigation"
+            />
           </li>
           <li class="about-details">
             <span>Skills</span>
@@ -283,7 +295,7 @@
         </ul>
       </div>
     </section>
-    <footer>
+    <footer id="Contact">
       <form action="https://formspree.io/f/form_id" method="post">
         <div class="form-container">
           <h4>Contact me</h4>
@@ -317,6 +329,355 @@
           <button class="primary-btn" type="submit">Get in Touch</button>
         </div>
       </form>
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <link rel="stylesheet" href="styles.css" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Poppins"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+            rel="stylesheet"
+          />
+          <title>Mai Rizk's Portfolio</title>
+        </head>
+        <body>
+          <header>
+            <div id="myNav" class="overlay">
+              <a class="closebtn" id="closebtn">&times;</a>
+              <div class="overlay-content" id="overlay-content">
+                <a href="#">Portfolio</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+            <a href="index.html" id="nav-header" class="primary nav-header"
+              >My Logo</a
+            >
+            <nav>
+              <img
+                id="img"
+                class="nav-img"
+                src="./images/menu.svg"
+                alt="navigation menu"
+              />
+              <a href="#"> Portfolio </a>
+              <a href="#"> About </a>
+              <a href="#"> Contact </a>
+            </nav>
+          </header>
+          <section class="personal-info">
+            <div class="info-container">
+              <h1>
+                I’m Mai Rizk
+                <br />
+                Glad to see you!
+              </h1>
+              <p class="intro">
+                I’m a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.
+              </p>
+              <p class="primary connect">LET’S CONNECT</p>
+              <ul class="social-links">
+                <li>
+                  <a class="link" href="#">
+                    <img src="./images/twitter.svg" alt="twitter link" />
+                  </a>
+                </li>
+                <li>
+                  <a class="link" href="#">
+                    <img src="./images/linkedin.svg" alt="linkedin link" />
+                  </a>
+                </li>
+                <li>
+                  <a class="link" href="#">
+                    <img src="./images/medium.svg" alt="medium link" />
+                  </a>
+                </li>
+                <li>
+                  <a class="link" href="#">
+                    <img src="./images/github.svg" alt="github link" />
+                  </a>
+                </li>
+                <li>
+                  <a class="link" href="#">
+                    <img src="./images/angellist.svg" alt="angellist link" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="work">
+            <div class="card">
+              <img
+                class="card-img"
+                src="./images/tonic.svg"
+                alt="work snapshot"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Tonic</h3>
+                <div class="card-details">
+                  <span class="active-span">CANOPY</span>
+                  <img src="./images/circle.svg" alt="grey circle" />
+                  <span>Back End Dev</span>
+                  <img src="./images/circle.svg" alt="grey circle" />
+                  <span>2015</span>
+                </div>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul>
+                  <li>
+                    <span>html</span>
+                  </li>
+                  <li>
+                    <span>css</span>
+                  </li>
+                  <li>
+                    <span>javaScript</span>
+                  </li>
+                </ul>
+                <button class="primary-btn" type="button">See Project</button>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./images/multipost.jpg"
+                alt="Project Tonic Snapshot"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Multi-Post Stories</h3>
+                <div class="card-details">
+                  <span class="active-span">CANOPY</span>
+                  <img src="./images/circle.svg" alt="grey circle" />
+                  <span>Back End Dev</span>
+                  <img src="./images/circle.svg" alt="grey circle" />
+                  <span>2015</span>
+                </div>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul>
+                  <li>
+                    <span>html</span>
+                  </li>
+                  <li>
+                    <span>css</span>
+                  </li>
+                  <li>
+                    <span>javaScript</span>
+                  </li>
+                </ul>
+                <button class="primary-btn" type="button">See Project</button>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./images/tonic2.jpg"
+                alt="work snapshot"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Tonic</h3>
+                <div class="card-details">
+                  <span class="active-span">CANOPY</span>
+                  <img src="./images/circle.svg" alt="grey circle" />
+                  <span>Back End Dev</span>
+                  <img src="./images/circle.svg" alt="grey circle" />
+                  <span>2015</span>
+                </div>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul>
+                  <li>
+                    <span>html</span>
+                  </li>
+                  <li>
+                    <span>css</span>
+                  </li>
+                  <li>
+                    <span>javaScript</span>
+                  </li>
+                </ul>
+                <button class="primary-btn" type="button">See Project</button>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img"
+                src="./images/multipost2.jpg"
+                alt="Project Tonic Snapshot"
+              />
+              <div class="card-content">
+                <h3 class="card-title">Multi-Post Stories</h3>
+                <div class="card-details">
+                  <span class="active-span">CANOPY</span>
+                  <img src="./images/circle.svg" alt="grey circle" />
+                  <span>Back End Dev</span>
+                  <img src="./images/circle.svg" alt="grey circle" />
+                  <span>2015</span>
+                </div>
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+                <ul>
+                  <li>
+                    <span>html</span>
+                  </li>
+                  <li>
+                    <span>css</span>
+                  </li>
+                  <li>
+                    <span>javaScript</span>
+                  </li>
+                </ul>
+                <button class="primary-btn" type="button">See Project</button>
+              </div>
+            </div>
+          </section>
+          <section class="about-me">
+            <div class="about-container">
+              <div>
+                <h2>
+                  About <br />
+                  Myself
+                </h2>
+                <p class="intro">
+                  Hello I’m a software developer! I can help you build a product
+                  , feature or website Look through some of my work and
+                  experience! If you like what you see and have a project you
+                  need coded, don’t hestiate to contact me.
+                </p>
+                <p class="primary connect">LET’S CONNECT</p>
+                <ul class="social-links">
+                  <li>
+                    <a class="link" href="#">
+                      <img src="./images/github.svg" alt="github link" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="link" href="#">
+                      <img src="./images/linkedin.svg" alt="linkedin link" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="link" href="#">
+                      <img src="./images/angellist.svg" alt="angellist link" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="link" href="#">
+                      <img src="./images/twitter.svg" alt="twitter link" />
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="link" href="#">
+                      <img src="./images/medium.svg" alt="medium link" />
+                    </a>
+                  </li>
+                </ul>
+                <button class="primary-btn" type="button">Get my resume</button>
+              </div>
+              <ul class="details-container">
+                <li class="about-details first-child">
+                  <div class="opened">
+                    <span>Languages</span>
+                    <img
+                      src="./images/downarrow.svg"
+                      alt="languages menu navigation"
+                    />
+                  </div>
+                  <ul>
+                    <li class="one-lang">
+                      <img src="./images/js.svg" alt="javaScript" />
+                      <span>JavaSript</span>
+                    </li>
+                    <li class="one-lang">
+                      <img src="./images/html.svg" alt="html" />
+                      <span>HTML</span>
+                    </li>
+                    <li class="one-lang">
+                      <img src="./images/css.svg" alt="css" />
+                      <span>CSS</span>
+                    </li>
+                  </ul>
+                </li>
+                <li class="about-details">
+                  <span>Frameworks</span>
+                  <img
+                    src="./images/rightarrow.svg"
+                    alt="Frameworks menu navigation"
+                  />
+                </li>
+                <li class="about-details">
+                  <span>Skills</span>
+                  <img
+                    src="./images/rightarrow.svg"
+                    alt="Skills menu navigation"
+                  />
+                </li>
+              </ul>
+            </div>
+          </section>
+          <footer>
+            <form action="https://formspree.io/f/form_id" method="post">
+              <div class="form-container">
+                <h4>Contact me</h4>
+                <p>
+                  If you have an application you are interested in developing, a
+                  feature that you need built or a project that needs coding.
+                  I’d love to help with it
+                </p>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="username"
+                  placeholder="Type your user name"
+                  maxlength="30"
+                  required
+                />
+                <input
+                  class="form-input"
+                  type="email"
+                  name="email"
+                  placeholder="Type your email address"
+                  required
+                />
+                <textarea
+                  class="form-input"
+                  placeholder="Write your message here"
+                  maxlength="500"
+                  required
+                >
+                </textarea>
+                <button class="primary-btn" type="submit">Get in Touch</button>
+              </div>
+            </form>
+          </footer>
+        </body>
+        <script src="./index.js"></script>
+      </html>
     </footer>
   </body>
   <script src="./index.js"></script>
