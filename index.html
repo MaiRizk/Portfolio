@@ -21,13 +21,22 @@
   </head>
   <body>
     <header>
-      <a href="index.html" class="primary nav-header">My Logo</a>
+      <div id="myNav" class="overlay">
+        <a class="closebtn" id="closebtn">&times;</a>
+        <div class="overlay-content" id="overlay-content">
+          <a href="#">Portfolio</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <a href="index.html" id="nav-header" class="primary nav-header">My Logo</a>
       <nav>
-        <img class="nav-img" src="./images/menu.svg" alt="navigation menu" />
+        <img id="img" class="nav-img" src="./images/menu.svg" alt="navigation menu" />
         <a href="#"> Portfolio </a>
         <a href="#"> About </a>
         <a href="#"> Contact </a>
       </nav>
+     
     </header>
     <section class="personal-info">
       <div class="info-container">
@@ -310,4 +319,5 @@
       </form>
     </footer>
   </body>
+  <script src="./index.js"></script>
 </html>
