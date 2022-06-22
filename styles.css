@@ -33,7 +33,7 @@ nav a {
 
 .overlay-content {
   position: relative;
-  top: 16%;
+  top: 14%;
   width: 100%;
   text-align: left;
   padding-left: 28px;
@@ -42,7 +42,7 @@ nav a {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 46px;
+  font-size: 44px;
   font-weight: 500;
   color: white;
   display: block;
@@ -58,8 +58,8 @@ nav a {
   position: absolute;
   top: 20px;
   right: 30px;
-  font-size: 50px;
-  font-weight: 400;
+  font-size: 42px;
+  font-weight: 300;
 }
 
 ul {
