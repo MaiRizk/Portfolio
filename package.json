@@ -1,0 +1,29 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-scss": "^3.21.0"
+  },
+  "devDependencies": {
+    "hint": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaiRizk/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaiRizk/Portfolio/issues"
+  },
+  "homepage": "https://github.com/MaiRizk/Portfolio#readme"
+}
