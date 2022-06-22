@@ -21,12 +21,27 @@
   </head>
   <body>
     <header>
-      <a href="index.html" class="primary nav-header">My Logo</a>
+      <div id="myNav" class="overlay">
+        <a class="closebtn" id="closebtn">&times;</a>
+        <div class="overlay-content" id="overlay-content">
+          <a href="#Portfolio">Portfolio</a>
+          <a href="#About">About</a>
+          <a href="#Contact">Contact</a>
+        </div>
+      </div>
+      <a href="index.html" id="nav-header" class="primary nav-header"
+        >My Logo</a
+      >
       <nav>
-        <img class="nav-img" src="./images/menu.svg" alt="navigation menu" />
-        <a href="#"> Portfolio </a>
-        <a href="#"> About </a>
-        <a href="#"> Contact </a>
+        <img
+          id="img"
+          class="nav-img"
+          src="./images/menu.svg"
+          alt="navigation menu"
+        />
+        <a href="#Portfolio"> Portfolio </a>
+        <a href="#About"> About </a>
+        <a href="#Contact"> Contact </a>
       </nav>
     </header>
     <section class="personal-info">
@@ -72,7 +87,7 @@
         </ul>
       </div>
     </section>
-    <section class="work">
+    <section class="work" id="Portfolio">
       <div class="card">
         <img class="card-img" src="./images/tonic.svg" alt="work snapshot" />
         <div class="card-content">
@@ -198,7 +213,7 @@
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section class="about-me" id="About">
       <div class="about-container">
         <div>
           <h2>
@@ -246,7 +261,10 @@
           <li class="about-details first-child">
             <div class="opened">
               <span>Languages</span>
-              <img src="./images/downarrow.svg" alt="languages menu navigation" />
+              <img
+                src="./images/downarrow.svg"
+                alt="languages menu navigation"
+              />
             </div>
             <ul>
               <li class="one-lang">
@@ -265,7 +283,10 @@
           </li>
           <li class="about-details">
             <span>Frameworks</span>
-            <img src="./images/rightarrow.svg" alt="Frameworks menu navigation" />
+            <img
+              src="./images/rightarrow.svg"
+              alt="Frameworks menu navigation"
+            />
           </li>
           <li class="about-details">
             <span>Skills</span>
@@ -274,7 +295,7 @@
         </ul>
       </div>
     </section>
-    <footer>
+    <footer id="Contact">
       <form action="https://formspree.io/f/form_id" method="post">
         <div class="form-container">
           <h4>Contact me</h4>
@@ -309,5 +330,6 @@
         </div>
       </form>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
